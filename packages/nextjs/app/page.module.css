@@ -1,0 +1,75 @@
+.mint-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 500px;
+    height: 100%;
+
+    padding-block: 80px;
+}
+
+.mint-container .title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 50px;
+}
+
+.mint-container span {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.mint-container .input-container label{
+    font-size: 24px;
+    font-weight: 600;
+
+    margin-right: 20px;
+}
+
+.input-container input {
+    width: 200px;
+    height: 50px;
+
+    padding: 10px;
+    background-color: black;
+    border-radius: 10px;
+
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+
+    transition: all 0.3s ease;
+}
+
+.input-container input:hover, .input-container input:focus {
+    border: none;
+    transform: scale(1.1);
+    background-color: #e6e6e6;
+    color: black;
+}
+
+.mint-container button {
+    width: 200px;
+    height: 50px;
+
+    background-color:darkcyan;
+    border: 4px solid white;
+    border-radius: 10px;
+
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.mint-container .img-container img {
+    border: 2px solid;
+}
+
+.split-line {
+    height: 100%;
+    border: 2px solid;
+    margin: 4px;
+}
