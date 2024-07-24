@@ -21,7 +21,7 @@ NFT(Non-fungible token, 대체 불가능 토큰)은 블록체인에 저장된 �
 프로젝트 클론해가기
 
 ```sh
-git clone https://github.com/Ludium-Official/solidity-dapp-mission.git my-nft-marketplace
+git clone -b my-nft-marketplace --single-branch https://github.com/Ludium-Official/solidity-dapp-mission.git my-nft-marketplace
 cd my-nft-marketplace
 yarn install
 ```
