@@ -63,7 +63,7 @@ NFT 프로필이 Mint되면, 여러 웹 애플리케이션에서 사용할 수 �
 프로젝트를 클론하고 실행한다.
 
 ```sh
-git clone -b decentralized-social https://github.com/Ludium-Official/solidity-dapp-mission.git decentralized-social
+git clone -b decentralized-social --single-branch https://github.com/Ludium-Official/solidity-dapp-mission.git decentralized-social
 cd decentralized-social
 npm install
 npm start
