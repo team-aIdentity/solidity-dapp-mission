@@ -21,7 +21,7 @@
 프로젝트 클론해가기
 
 ```sh
-git clone https://github.com/Ludium-Official/solidity-dapp-mission.git state-channel
+git clone -b state-channel --single-branch https://github.com/Ludium-Official/solidity-dapp-mission.git state-channel
 cd state-channel
 yarn install
 ```
