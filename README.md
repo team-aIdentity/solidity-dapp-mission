@@ -18,9 +18,7 @@ NFT(Non-fungible token, 대체 불가능 토큰)은 블록체인에 저장된 �
 
 ## 🚩 Step 1. 환경
 
-Scaffod-ETH 2 프로젝트 생성 및 의존성 설치
-
-=> 새로운 프로젝트를 생성할지 만들어놓은 프로젝트를 clone해갈지 추후 결정
+프로젝트 클론해가기
 
 ```sh
 git clone https://github.com/Ludium-Official/solidity-dapp-mission.git my-nft-marketplace
