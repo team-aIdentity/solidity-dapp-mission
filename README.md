@@ -21,7 +21,7 @@
 프로젝트 클론해가기
 
 ```sh
-git clone https://github.com/Ludium-Official/solidity-dapp-mission.git staking
+git clone -b staking --single-branch https://github.com/Ludium-Official/solidity-dapp-mission.git staking
 cd staking
 yarn install
 ```
