@@ -24,7 +24,7 @@ L2는 기존 블록체인 위에 구축된 2차 프레임워크 또는 프로토
 프로젝트 클론해가기
 
 ```sh
-git clone https://github.com/Ludium-Official/solidity-dapp-mission.git dynamic-nft
+git clone -b dynamic-nft --single-branch https://github.com/Ludium-Official/solidity-dapp-mission.git dynamic-nft
 cd dynamic-nft
 yarn install
 ```
