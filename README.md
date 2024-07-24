@@ -28,7 +28,7 @@ DeFi의 특징
 프로젝트 클론해가기
 
 ```sh
-git clone https://github.com/Ludium-Official/solidity-dapp-mission.git simple-payment
+git clone -b simple-payment --single-branch https://github.com/Ludium-Official/solidity-dapp-mission.git simple-payment
 cd simple-payment
 yarn install
 ```
