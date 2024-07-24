@@ -50,7 +50,7 @@ DEX(Decentralized Exchange, 탈중앙화 거래소)는 암호화폐 구매자와
 프로젝트 클론해가기
 
 ```sh
-git clone https://github.com/Ludium-Official/solidity-dapp-mission.git token-swap
+git clone -b token-swap --single-branch https://github.com/Ludium-Official/solidity-dapp-mission.git token-swap
 cd token-swap
 yarn install
 ```
