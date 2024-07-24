@@ -21,7 +21,7 @@ ERC20 스마트 계약의 구체적인 기능으로는 토큰 전송(Transfer), 
 프로젝트 클론해가기
 
 ```sh
-git clone https://github.com/Ludium-Official/solidity-dapp-mission.git token-vendor
+git clone -b token-vendor --single-branch https://github.com/Ludium-Official/solidity-dapp-mission.git token-vendor
 cd token-vendor
 yarn install
 ```
