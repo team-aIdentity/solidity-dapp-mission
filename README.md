@@ -17,7 +17,7 @@
 프로젝트 클론해가기
 
 ```sh
-git clone https://github.com/Ludium-Official/solidity-dapp-mission.git dice-game
+git clone -b dice-game --single-branch https://github.com/Ludium-Official/solidity-dapp-mission.git dice-game
 cd dice-game
 yarn install
 ```
