@@ -23,7 +23,7 @@
 프로젝트 클론해가기
 
 ```sh
-git clone -b multi-sig https://github.com/Ludium-Official/solidity-dapp-mission.git multi-sig
+git clone -b multi-sig --single-branch https://github.com/Ludium-Official/solidity-dapp-mission.git multi-sig
 cd multi-sig
 yarn install
 ```
