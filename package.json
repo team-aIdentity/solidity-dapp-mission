@@ -1,0 +1,71 @@
+{
+  "name": "se-2",
+  "version": "0.0.1",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/hardhat",
+      "packages/nextjs"
+    ]
+  },
+  "scripts": {
+    "account": "yarn workspace @se-2/hardhat account",
+    "chain": "yarn workspace @se-2/hardhat chain",
+    "fork": "yarn workspace @se-2/hardhat fork",
+    "deploy": "yarn workspace @se-2/hardhat deploy",
+    "verify": "yarn workspace @se-2/hardhat verify",
+    "hardhat-verify": "yarn workspace @se-2/hardhat hardhat-verify",
+    "compile": "yarn workspace @se-2/hardhat compile",
+    "generate": "yarn workspace @se-2/hardhat generate",
+    "flatten": "yarn workspace @se-2/hardhat flatten",
+    "hardhat:lint": "yarn workspace @se-2/hardhat lint",
+    "hardhat:lint-staged": "yarn workspace @se-2/hardhat lint-staged",
+    "hardhat:format": "yarn workspace @se-2/hardhat format",
+    "hardhat:test": "yarn workspace @se-2/hardhat test",
+    "test": "yarn hardhat:test",
+    "format": "yarn next:format && yarn hardhat:format",
+    "start": "yarn workspace @se-2/nextjs dev",
+    "next:lint": "yarn workspace @se-2/nextjs lint",
+    "next:format": "yarn workspace @se-2/nextjs format",
+    "next:check-types": "yarn workspace @se-2/nextjs check-types",
+    "next:build": "yarn workspace @se-2/nextjs build",
+    "next:serve": "yarn workspace @se-2/nextjs serve",
+    "postinstall": "husky install",
+    "precommit": "lint-staged",
+    "vercel": "yarn workspace @se-2/nextjs vercel",
+    "vercel:yolo": "yarn workspace @se-2/nextjs vercel:yolo"
+  },
+  "packageManager": "yarn@3.2.3",
+  "devDependencies": {
+    "@types/cors": "^2",
+    "@types/express": "^4",
+    "@types/ramda": "^0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  },
+  "dependencies": {
+    "@aave/math-utils": "^1.29.1",
+    "@aave/protocol-js": "^4.3.0",
+    "@ant-design/icons": "^5.4.0",
+    "@apollo/client": "latest",
+    "@apollo/experimental-nextjs-app-support": "^0.11.2",
+    "@ethersproject/units": "^5.7.0",
+    "@graphprotocol/graph-cli": "^0.79.0",
+    "@uniswap/sdk": "^3.0.3",
+    "@uniswap/v2-periphery": "^1.1.0-beta.0",
+    "antd": "^5.19.3",
+    "axios": "^1.7.2",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.12",
+    "dotenv": "^16.4.5",
+    "eth-hooks": "^4.6.2",
+    "ethers": "^5.7.2",
+    "express": "^4.19.2",
+    "http-proxy-middleware": "^3.0.0",
+    "ramda": "^0.30.1",
+    "web3": "^4.11.1"
+  }
+}
