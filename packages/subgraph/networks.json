@@ -1,0 +1,27 @@
+{
+  "localhost": {
+    "YourContract": {
+      "address": "0x5FbDB2315678afecb367f032d93F642f64180aa3"
+    }
+  },
+  "sepolia": {
+    "APIConsumer": {
+      "address": "0xF3de4eC3998228a38a63e5dF8B3e0340C52C8E57"
+    },
+    "CoinGeckoConsumer": {
+      "address": "0xdc22EDA44b84270a006E6B87852a87f78280E6BD"
+    },
+    "DiceRolls": {
+      "address": "0x2B15f62A13bB660373761cEb3463De6ac4F1B401"
+    },
+    "MultihDiceRolls": {
+      "address": "0x5087b2Ffc810b3135EC88DabB3ce97652A33F474"
+    },
+    "PriceConsumerV3": {
+      "address": "0x61452F9Ce7bdc621a18EbD96D4764D4332514B81"
+    },
+    "RandomNumberConsumer": {
+      "address": "0x4C482d139AF6F78e5f5ba27882b4f9Ee44Ff7f82"
+    }
+  }
+}
