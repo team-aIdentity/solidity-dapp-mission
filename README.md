@@ -55,7 +55,7 @@ Oracle Part1 과 동일하게 subscription ID 를 `packages/hardhat/.env` 에 �
 
 이번 미션에서는 Part 1의 DiceRolls 에서 발전하여, 여러 사용자의 주사위 굴리기를 동시에 추적한다.
 
-우선 주사위 굴리기 요청을 하기 전, 배포된 스마트 계약에 LINK 를 보내둔다.
+우선 주사위 굴리기 요청을 하기 전, Subscription에 Sepolia ETH 와 LINK 를 보내둔다.
 
 테스트넷 LINK는 [**이곳**](https://faucets.chain.link/)에서 받을 수 있다.
 
